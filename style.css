@@ -1,0 +1,74 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f1ff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* RE-USABLE CSS */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  height: 95px;
+  background-color: #562eff;
+}
+.header_container {
+  width: 870px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  width: 200px;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  width: 40.5px;
+  height: 50px;
+}
+
+.logo_text {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.menu,
+.menu_container {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.menu_item a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.menu_profile img {
+  cursor: pointer;
+}
